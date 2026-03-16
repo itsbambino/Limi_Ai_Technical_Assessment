@@ -1,0 +1,33 @@
+.app-container {
+  background: radial-gradient(circle at center, #0a192f 0%, #020c1b 100%);
+  min-height: 100vh;
+  color: #e6f1ff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding-bottom: 50px;
+}
+
+.dashboard-header {
+  padding: 40px 20px;
+  text-align: center;
+  background: rgba(2, 12, 27, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #233554;
+  box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+  margin-bottom: 30px;
+}
+
+.dashboard-title {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  color: #64ffda;
+  text-transform: uppercase;
+  text-shadow: 0 0 20px rgba(100, 255, 218, 0.3);
+}
+
+.dashboard-subtitle {
+  color: #8892b0;
+  margin-top: 10px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
